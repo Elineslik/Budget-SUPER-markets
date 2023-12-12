@@ -1,0 +1,402 @@
+body {
+    color: black;
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(254, 253, 245);
+}
+
+img {
+    width: 9em;
+    margin: 0;
+    padding: 0;
+}
+
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    margin: 0.3em 0.6em;
+    color: rgb(248, 218, 93);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 0.3em;
+}
+
+p {
+    padding: 0.75em;
+    font-weight: 300;
+    border-radius: 0.5em;
+}
+
+/*----- navigatie ----------------------*/
+nav {
+    width: 100%;
+    font-size: 0.85rem;
+    background-color: rgb(254, 253, 245);
+    padding: 0.5em 0;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0.5em;
+    margin: 0;
+}
+
+nav li a {
+    text-align: center;
+    padding: 0 0.9em;
+    text-decoration: none;
+    color: rgb(138, 114, 165);
+}
+
+nav li a:hover {
+    background-color: rgb(250, 227, 148);
+    border-radius: 2em;
+    padding: 0.3em;
+}
+
+.active {
+    color: rgb(138, 114, 165);
+    font-weight: 999;
+}
+
+.pagina1 header img {
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5em;
+    padding: 0 36%;
+    height: 6em;
+    width: auto;
+    border-radius: 1em;
+}
+
+/*----- pagina 1 ----------------------*/
+.pagina1 h1 {
+    background-image: url(IMG_4081.jpg);
+    opacity: 0.9;
+    padding: 1.1em 1em 3.4em 1em;
+    color: rgb(254, 253, 245);
+    border-radius: 0.7em;
+    margin: 0 0 0.3em 0;
+    font-size: 2.3em;
+}
+
+.pagina1 header p,
+.pagina1 section p {
+    padding: 0 0.9em;
+    margin: 0.6em 0em;
+}
+
+.pagina1 h3+p {
+    background-color: rgb(138, 114, 165);
+    border-radius: 0 1em 1em 1em;
+    padding: 0.8em;
+    margin: 0;
+    color: white;
+}
+
+
+.pagina1 section {
+    padding-bottom: 1.5em;
+}
+
+.pagina1 section h3 {
+    background-color: rgb(138, 114, 165);
+    border-radius: 1em 1em 0 0;
+    width: fit-content;
+    padding: 0.5em 0.5em 0 0.5em;
+    margin: 0;
+}
+
+.pagina1 section:last-of-type {
+    background-color: rgb(138, 114, 165);
+    border-radius: 1em;
+    margin: 0;
+    padding: 0.8em;
+    color: white;
+}
+
+.pagina1 section a {
+    color: rgb(138, 114, 165);
+    padding: 0.85rem;
+    font-size: 0.9rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    margin: 0.4em;
+    background-color: rgb(250, 227, 148);
+    float: right;
+    font-weight: 500;
+}
+
+.pagina1 section a:hover {
+    background-color: rgb(248, 218, 93);
+}
+
+.pagina1 section li {
+    display: flex;
+}
+
+.pagina1 section ol {
+    padding-left: 1.5em;
+}
+
+.pagina1 li img {
+    width: 10%;
+    margin-right: 0.5em;
+}
+
+.pagina1 div {
+    display: flex;
+}
+
+.pagina1 div img {
+    margin: 0.6em 0em;
+    border-radius: 1em;
+}
+
+.pagina1 header {
+    padding-bottom: 1.5em;
+}
+
+/*----- pagina 2 ----------------------*/
+.pagina2 {
+    background-image: url(achtergrond1-07.png);
+    object-fit: cover;
+    background-repeat: repeat;
+    margin: 0em;
+}
+
+.pagina2 section p:first-of-type {
+    padding: 0 0.2em;
+    border-radius: 0.5em 0.5em 0 0;
+    color: rgb(138, 114, 165);
+}
+
+.pagina2 main,
+.pagina2 footer {
+    margin: 0.6em;
+}
+
+.pagina2 header img {
+    display: block;
+    margin: auto;
+    height: 13em;
+    width: auto;
+}
+
+.pagina2 section p,
+.pagina2 header p {
+    background-color: rgb(254, 253, 245);
+    margin: 0 0.4em;
+    padding: 0.3em;
+}
+
+.pagina2 h3 {
+    color: rgb(138, 114, 165);
+    width: fit-content;
+    font-size: 1.25em;
+    padding: 0.4em 0.6em;
+    background-color: rgb(254, 253, 245);
+    margin: 0;
+}
+
+.pagina2 section img {
+    width: 95%;
+    margin: 0 0.7em 0;
+    border-radius: 1em;
+}
+
+.pagina2 section {
+    margin: 2em 0 0 0;
+}
+
+.img2 {
+    display: flex;
+}
+
+.groente {
+    display: flex;
+}
+
+.groente img {
+    animation: turn 3s ease;
+    animation-iteration-count: inherit;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+.pagina2 section a {
+    color:rgb(138, 114, 165);
+    border-radius: 3rem;
+    font-weight: 700;
+    text-decoration-color:rgb(250, 227, 148) ;
+    text-decoration-thickness: 2.3px ;
+}
+
+.pagina2 header p {
+    margin: 0 0em 1em 1em;
+}
+
+.pagina2 h1 {
+    color: rgb(138, 114, 165);
+    margin: 0.5em 0.57em;
+    font-size: 2.5em;
+}
+
+/*----- pagina 3 ----------------------*/
+.pagina3 {
+    background-color: rgb(138, 114, 165);
+}
+
+article {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.pagina3 main {
+    color: white;
+}
+
+.pagina3 footer p {
+    color: rgb(250, 227, 148);
+}
+
+.pagina3 article:nth-child(1) {
+    padding-left: 1em;
+}
+
+.pagina3 article:nth-child(2) {
+    padding-left: 2.5em;
+}
+
+.pagina3 article:nth-child(3) {
+    padding-left: 5em;
+}
+
+.pagina3 article:nth-child(4) {
+    padding-left: 3em;
+}
+
+.pagina3 article:nth-child(5) {
+    padding-left: 7em;
+}
+
+.pagina3 article:nth-child(6) {
+    padding-left: 4em;
+}
+
+.pagina3 article:nth-child(7) {
+    padding-left: 1em;
+}
+
+.pagina3 article:nth-child(8) {
+    padding-left: 7em;
+}
+
+.pagina3 header {
+    background-image: url(project1-34.png);
+    background-repeat: no-repeat;
+    padding: 0em;
+    margin: 0em;
+}
+
+.pagina3 {
+    margin: 0;
+}
+
+.pagina3 h1 {
+    color: rgb(138, 114, 165);
+    margin: 0.5em 0.57em;
+    font-size: 2.5em;
+}
+
+.pagina3 header p {
+    margin: 0em 1em 0 0.5em;
+    padding: 0 1em 2em;
+    color: rgb(100, 80, 122);
+}
+
+.pagina3 header p:last-of-type {
+    text-align: center;
+    margin-right: 6em;
+    padding-bottom: 1em;
+}
+
+article img {
+    object-fit: contain;
+    height: 5em;
+}
+
+/*----- pagina 4 ----------------------*/
+
+.pagina4 h1 {
+    color: rgb(138, 114, 165);
+    margin:  0.3em 0.3em 0 0.3em ;
+}
+
+.pagina4 p {
+    margin: 0;
+}
+
+.pagina4 h3 {
+    color: rgb(138, 114, 165);
+    margin-bottom: 0em;
+}
+
+.pagina4 section:last-of-type {
+    background-color: rgb(250, 227, 148);
+    border-radius: 1em;
+    margin: 0.8em;
+    padding: 0.8em;
+}
+
+.pagina4 h4 {
+    margin: 0.3em 0;
+}
+
+.pagina4 section:first-of-type {
+    display: flex;
+}
+
+li::marker {
+    color: rgb(138, 114, 165);
+}
+
+.pagina4 img {
+    margin: 0.8em 0.5em 0.8em 0.8em;
+    border-radius: 1em;
+}
+
+.pagina4 header a{
+    color: rgb(138, 114, 165);
+    padding: 0 0.75em 0.75em;
+    text-decoration-color: rgb(250, 227, 148);
+    text-decoration-thickness: 2.3px ;
+
+}
+/*----- footer ----------------------*/
+footer p {
+    color: rgb(138, 114, 165);
+    font-size: 0.7em;
+}
+
+footer {
+    margin: 0.6em;
+}
